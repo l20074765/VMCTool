@@ -1,0 +1,5 @@
+Out/
+*Make*
+*.Debug
+*.Release
+*.pro.user

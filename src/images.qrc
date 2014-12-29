@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>vmctool.qss</file>
+    </qresource>
+    <qresource prefix="/language">
+        <file>qt_zh_CN.qm</file>
+        <file>vmctool_ch.qm</file>
+    </qresource>
+    <qresource prefix="/button">
+        <file>images/button.png</file>
+        <file>images/button_forbidden.png</file>
+        <file>images/button_hover.png</file>
+        <file>images/button_pressed.png</file>
+        <file>images/column.png</file>
+        <file>images/data.png</file>
+        <file>images/goods.png</file>
+        <file>images/serial.png</file>
+        <file>images/system.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>images/EFlogo.png</file>
+        <file>images/logo.png</file>
+        <file>images/logo_big.png</file>
+        <file>images/logoText.png</file>
+        <file>images/tool.ico</file>
+        <file>images/tool.png</file>
+    </qresource>
+    <qresource prefix="/system_button">
+        <file>images/sysButton/close.png</file>
+        <file>images/sysButton/close_hover.png</file>
+        <file>images/sysButton/close_pressed.png</file>
+        <file>images/sysButton/menu.png</file>
+        <file>images/sysButton/menu_hover.png</file>
+        <file>images/sysButton/menu_pressed.png</file>
+        <file>images/sysButton/min.png</file>
+        <file>images/sysButton/min_hover.png</file>
+        <file>images/sysButton/min_pressed.png</file>
+    </qresource>
+</RCC>

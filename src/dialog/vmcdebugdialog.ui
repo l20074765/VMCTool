@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VMCDebugDialog</class>
+ <widget class="QDialog" name="VMCDebugDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>VMC Debug Switch</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>15</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>5</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>15</number>
+      </property>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_main">
+          <property name="text">
+           <string>MainSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetMain" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_bill">
+          <property name="text">
+           <string>BillSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetBill" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_coin">
+          <property name="text">
+           <string>CoinSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetCoin" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_changer">
+          <property name="text">
+           <string>ChangeSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetChange" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_column">
+          <property name="text">
+           <string>ColumnSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetColumn" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_pc">
+          <property name="text">
+           <string>PCSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetPC" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_select">
+          <property name="text">
+           <string>SelectSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetSelect" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QLabel" name="label_compressor">
+          <property name="text">
+           <string>CompressorSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetComPressor" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_led">
+          <property name="text">
+           <string>LedSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetLed" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_card">
+          <property name="text">
+           <string>CardSwitch:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="HDButton" name="widgetCard" native="true"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>HDButton</class>
+   <extends>QWidget</extends>
+   <header location="global">hdbutton.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
